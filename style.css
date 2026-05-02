@@ -1,0 +1,280 @@
+.ust-alan {
+    background-color: #f2c300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 18px 40px;
+    flex-wrap: wrap;
+}
+
+.ust-alan-icerik {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.icerik-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 35px 60px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    padding: 3px;
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 45px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.menu a.active {
+    color: #000000;
+}
+.ust-alan-icerik {
+    text-decoration: none;
+}
+
+.anasayfa {
+    background-color: #050505;
+    min-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+.anasayfa-sol {
+    color: white;
+    z-index: 2;
+}
+
+.anasayfa-ust-yazi {
+    font-size: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.anasayfa-baslik {
+    font-size: 85px;
+    line-height: 95px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.anasayfa-buton {
+    background-color: #f2c300;
+    color: black;
+    text-decoration: none;
+    padding: 18px 40px;
+    font-weight: bold;
+    display: inline-block;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.anasayfa-sag {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.anasayfa-sag img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    right: -120px;
+}
+.rezervasyon-alani {
+    background-color: #e8e6e1;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    position: relative;
+    z-index: 5;
+}
+
+.rezervasyon-kutu {
+    background-color: white;
+    width: 85%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.input-grup {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input-grup label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.input-grup input {
+    height: 60px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.rezervasyon-buton {
+    background-color: #f2c300;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 40px;
+    align-self: end;
+    display: flex;
+    align-items: center;
+}
+.belge-alani {
+    background-color: #eceae5;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.belge-gorsel {
+    width: 460px;
+    max-width: 100%;
+    transition: 0.3s;
+}
+
+.belge-gorsel:hover {
+    transform: scale(1.03);
+}
+
+.belge-baslik {
+    margin-top: 35px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #111;
+}
+
+.belge-no {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #8a8a8a;
+}
+.rezervasyon-banner {
+    background-color: #f2c300;
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rezervasyon-sol {
+    width: 50%;
+    z-index: 2;
+}
+
+.rezervasyon-ust-yazi {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #111;
+    position: relative;
+    padding-left: 60px;
+}
+
+.rezervasyon-ust-yazi::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 40px;
+    height: 8px;
+    background-color: black;
+}
+
+.rezervasyon-baslik {
+    font-size: 58px;
+    line-height: 70px;
+    color: #111;
+    margin-bottom: 50px;
+    max-width: 650px;
+}
+
+.rezervasyon-ara-buton {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+.rezervasyon-ara-buton:hover {
+    background-color: black;
+    color: #f2c300;
+}
+
+.rezervasyon-sag {
+    width: 35%;
+    height: 450px;
+    background-color: #111;
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rezervasyon-sekil {
+    width: 220px;
+    height: 320px;
+    background-color: rgba(242, 195, 0, 0.7);
+    border-radius: 120px;
+    border: 10px solid #f2c300;
+}
