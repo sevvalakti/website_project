@@ -278,3 +278,101 @@ body {
     border-radius: 120px;
     border: 10px solid #f2c300;
 }
+/* Rezervasyon oluştur alanı */
+
+.transfer-alani {
+    position: relative;
+    min-height: 900px;
+    background-image: rgba(0,0,0,0.0);
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    overflow: hidden;
+}
+
+.transfer-alani::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.35);
+}
+
+.transfer-icerik {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transfer-sol h1 {
+    color: white;
+    font-size: 90px;
+    line-height: 110px;
+    max-width: 700px;
+}
+
+.rezervasyon-karti {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.sekmeler {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.sekme {
+    border: none;
+    background-color: #f4f4f4;
+    padding: 22px 45px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.sekme.aktif {
+    background-color: #f2c300;
+    color: black;
+    font-weight: bold;
+}
+
+.form-alani {
+    display: flex;
+    gap: 25px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.form-grup {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form-grup label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #777;
+}
+
+.form-grup input,
+.form-grup select {
+    height: 65px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.rezervasyon-btn {
+    height: 65px;
+    border: none;
+    background-color: #f2c300;
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
